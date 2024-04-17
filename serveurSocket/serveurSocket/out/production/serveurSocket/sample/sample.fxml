@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="502.0" prefWidth="843.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="58.0" layoutY="59.0" prefHeight="17.0" prefWidth="378.0" text="Choisissez Le dossier où se trouve les fichiers téléchargeables" textAlignment="CENTER" />
+        <Button fx:id="parcourir" layoutX="221.0" layoutY="216.0" mnemonicParsing="false" onAction="#directory" prefHeight="25.0" prefWidth="101.0" text="parcourir" />
+    </children>
+</AnchorPane>
